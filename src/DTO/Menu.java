@@ -16,6 +16,8 @@ public class Menu extends ArrayList<String> {
 
     String msg = "";
 	String new = "Hello";
+String new = "Hello";
+String new = "Hello";
 
     public Menu(String msg) {
         super();
