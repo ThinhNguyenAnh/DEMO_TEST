@@ -31,7 +31,7 @@ public class MyValidation {
             }
         }
     }
-
+///asdasdasd/a/sd/asd
 //    public static double inputAmount(String msg, double withdrawlAmount, double yourAmount) {
 //        while (true) {
 //            System.out.println(msg);
@@ -106,6 +106,19 @@ public class MyValidation {
             System.out.println("Enter again!");
         }
     }
+
+	 public static String inputPassword1(String msg) {
+        while (true) {
+            String result = inputString(msg);
+            if (result.matches(PASSWORD_VALID)) {
+                return result;
+            } else {
+                System.err.println("Invalid password");
+                System.out.println("Please enter again");
+            }
+        }
+    }
+
 
     public static Double inputDouble() {
         double value;

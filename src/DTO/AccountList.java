@@ -72,6 +72,7 @@ public class AccountList extends ArrayList<Account> {
     public boolean writeToFile(String fileName) {
         FileWriter fw = null;
         PrintWriter pw = null;
+	String s;
         try {
             fw = new FileWriter(fileName);
             pw = new PrintWriter(fw);
