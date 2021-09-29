@@ -148,6 +148,7 @@ public class AccountList extends ArrayList<Account> {
         String name;
         String password;
         boolean check = false;
+	boolean check1 = true;
         do {
             System.out.println("------------------Login--------------------");
             name = MyValidation.inputString("Account name:");
