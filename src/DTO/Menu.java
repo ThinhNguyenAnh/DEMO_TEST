@@ -37,7 +37,7 @@ String new = "Hello";
                 System.out.print("Choose: ");
                 return Integer.parseInt(sc.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("Please input valid choice (Number only)");
+                System.out.println("Please input valid choice (Number only1)");
             }
         }
     }
